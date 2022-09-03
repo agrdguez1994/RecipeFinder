@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RecipeFinder/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": "6.0.8"
+        },
+        "runtime": {
+          "RecipeFinder.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/6.0.8": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "6.0.8.0",
+            "fileVersion": "6.0.822.36316"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RecipeFinder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Authentication.Google/6.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LncCnqtKYQspPgFUFa+iNCAF4G3cRP11wXqNvGKobZbVQBVoFyerutD2OaXoWUHakbt4H6SoVWsIc5HB5wvzZQ==",
+      "path": "microsoft.aspnetcore.authentication.google/6.0.8",
+      "hashPath": "microsoft.aspnetcore.authentication.google.6.0.8.nupkg.sha512"
+    }
+  }
+}

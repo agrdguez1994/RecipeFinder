@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JT3wSk/DEJDQl3ymYDo0TWBaqWVHr/HPWKWHCRwY8CuAuv9Rqwri4YOkrfb2Jys4jTroIonYYKDfbv6ju89yHw==",
+  "success": true,
+  "projectFilePath": "E:\\Projects\\Prueba INMYTEAM\\RecipeFinder\\RecipeFinder\\RecipeFinder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ale\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.8\\microsoft.aspnetcore.authentication.google.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

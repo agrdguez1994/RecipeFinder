@@ -1,0 +1,100 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.form-control {
+    border: 1px solid lightgray !important;
+}
+.login-container .card-title{
+    margin:30px;
+}
+.login-container {
+    height: 100vh;
+}
+
+.custom-card {
+    max-width: 600px;
+    min-width: 350px;
+    border: 0px;
+    border-radius:10px !important;
+}
+.card-border-rounded{
+    border-radius:16px;
+}
+.card-border-rounded .card-img-top{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+}
+.button-border-rounded {
+    border-radius: 16px;
+}
+
+input[type=text]:focus {
+    box-shadow: inset 0 -1px 0 #ddd !important;
+}
+input:focus {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.search-container {
+    height: 80vh;
+}
+.custom-btn {
+    /*    background-color: #eaedf2;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    margin: 20px 20px 20px 0px;
+    padding: 13px 18px 12px 20px;
+    border-radius: 0px 16px 16px 0px;
+    border: 1px solid #d5caca;
+    font-size: inherit;
+}
+.custom-btn img{
+    width:15px;
+}
+.custom-imput {
+    min-width: 380px;
+    margin: 20px 0px 20px 20px;
+    padding: 8px 16px;
+    border-radius: 16px 0px 0px 16px;
+    border: 1px solid #d5caca;
+}
+.loading {
+    position: absolute;
+    z-index: 10000;
+    top: -100vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fcfefc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: top .5s;
+}
+.loading img{
+    width:250px;
+    height:200px;
+
+}
+.visible{
+    top:0;
+}
